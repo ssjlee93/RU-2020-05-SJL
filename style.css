@@ -15,7 +15,8 @@ textarea{
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  background-image: url("./ACNH_April_2020_Calendar_[1280x1024].jpg");
+  background-size: cover;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
