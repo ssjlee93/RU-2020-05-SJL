@@ -20,9 +20,9 @@ The inputs are shown when you load the page.
 ## Struggles: 
 I struggled to have each button reference each textarea. 
 I have tried: 
-* using .each() method to loop through the buttons, travers them by .get() method. 
-    once the each method finds the elements with .get(), use the index to traverse the textareas to match them with the buttons. 
-    since each row is a separate dive, every button and every textarea had the same index. 
+* Using .each() method to loop through the buttons, travers them by .get() method. 
+    Once the each method finds the elements with .get(), use the index to traverse the textareas to match them with the buttons. 
+    Since each row is a separate dive, every button and every textarea had the same index. 
 * individually saving textarea values in local storage to each button. Reference each textarea by id and each button by id. For each button id, each textarea with id is referenced. 
-* using .siblings() method to traverse the button's sibling. Find its sibling and save its value
-    this method led to my solution
+* using .siblings() method to traverse the button's sibling. Find its sibling and save its value.
+    This method led to my solution
