@@ -5,7 +5,6 @@ $("#currentDay").text("Today is: " + today);
 var hourMoment = moment().hour();
 var hour = parseInt(hourMoment);
 var times;
-var savedEvent = localStorage.getItem("schedule");
 
 $(".description").each(function() {
     times = parseInt($(this).attr("data-time"));
