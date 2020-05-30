@@ -1,4 +1,4 @@
-# randomname-2020-04-sjl-05
+# RU-2020-05-SJL
 
 # JS homework 05 third party API 
 
